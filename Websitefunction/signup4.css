@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.text{
+    text-align: center;
+     font-family: "Open Sans";
+     font-size: 19px;
+     color: white;
+      
+  
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    max-width: 1200px;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Open Sans";
+}
+
+
+.card {
+    margin: 20px;
+    width: 40rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.card:hover {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-selected {
+    border-color: #337ab7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+input[id="card_1"]:checked ~ label[for="card_1"] .card,
+input[id="card_2"]:checked ~ label[for="card_2"] .card,
+input[id="card_3"]:checked ~ label[for="card_3"] .card,
+input[id="card_4"]:checked ~ label[for="card_4"] .card,
+ .card {
+    border-color: rgb(21, 231, 238);
+}
+
+
+input[id="card_1"]:checked ~ label[for="card_1"] .card .check_btn,
+input[id="card_2"]:checked ~ label[for="card_2"] .card .check_btn,
+input[id="card_3"]:checked ~ label[for="card_3"] .card .check_btn,
+input[id="card_4"]:checked ~ label[for="card_4"] .card .check_btn,
+.card .check_btn {
+    background-color: rgb(21, 231, 238);
+}
+
+input[id="card_1"]:checked ~ label[for="card_1"] .card .img,
+input[id="card_2"]:checked ~ label[for="card_2"] .card .img,
+input[id="card_3"]:checked ~ label[for="card_3"] .card .img {
+    border-color:rgb(157, 178, 191);
+    box-shadow: 0 0 .5rem rgba(3, 4, 77, 0.6);
+}
+  
+#container1{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+a:link {
+    text-decoration: none;
+}
+
+container1{
+    text-align: center;
+}
+
+button {
+    /* Add some padding to give the button some depth */
+    padding: 10px 20px;
+  
+    /* Add a border to give the button a 3D appearance */
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 1000px rgba(27, 2, 53, 0.2);
+  
+    /* Add a background color and text color */
+    background-color: #9d8cd4;
+    color: #ffffff;
+  
+    /* Add some cursor styles to make it look clickable */
+    cursor: pointer;
+  
+    /* Add some hover and active styles to make it more interactive */
+    transition: background-color 0.2s;
+    
+    
+      position:absolute;
+        bottom: -450px;;
+        left: 50%; /* optional, to center the button horizontally */
+        transform: translateX(-50%); /* optional, to center the button horizontally */
+      
+      
+  }
+  
+  button:hover {
+    background-color: #9d8cd4;
+  }
+  
+  button:active {
+    background-color: #9d8cd4;
+    box-shadow: 0 0 100px rgba(240, 239, 244, 0.4);
+  }
+  
+
+  body{
+    background-color: #27374D;
+  }
+ 
+

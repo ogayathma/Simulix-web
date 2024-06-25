@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    background-color: #27374D; 
+}
+
+.heading{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+   
+}
+/*.slogan{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+}*/
+img {
+    width: 200px;
+    height: 170px;
+    
+}
+
+/*.b1{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+
+    
+}
+.b2{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.b1:hover {
+    background-color: #7986b1;
+  }
+
+.b2:hover {
+    background-color: #7986b1;
+  }
+    */
+
+   
+  
+    button {
+        /* Add some padding to give the button some depth */
+        padding: 10px 20px;
+      
+        /* Add a border to give the button a 3D appearance */
+        border: none;
+        border-radius: 17px;
+        box-shadow: 0 0 1000px rgba(27, 2, 53, 0.2);
+      
+        /* Add a background color and text color */
+        background-color: #9DB2BF;
+        color: #ffffff;
+      
+        /* Add some cursor styles to make it look clickable */
+        cursor: pointer;
+      
+        /* Add some hover and active styles to make it more interactive */
+        transition: background-color 0.2s;
+      }
+      
+      button:hover {
+        background-color: #9DB2BF;
+      }
+      
+      button:active {
+        background-color: #9DB2BF;
+        box-shadow: 0 0 100px rgba(240, 239, 244, 0.4);
+      }
+    
+#container1{
+    margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+a:link {
+    text-decoration: none;
+}

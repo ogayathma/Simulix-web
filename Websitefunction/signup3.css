@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #27374D;
+  
+}
+
+.container {
+  text-align: center;
+}
+
+.range-slider {
+    position: relative;
+    width: 200px; /* adjust the width to your liking */
+    margin: 50px;
+   
+  }
+  
+  .range-slider input[type="range"] {
+    width: 200%;
+    height: 20px;
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #5d8494;
+    -webkit-appearance: none;
+  
+  }
+  
+  .range-slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000000;
+    cursor: pointer;
+    
+  }
+  
+  .range-slider #range-value {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  #submit-btn {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  #submit-btn:hover {
+    background-color: #7986b1;
+  }
+  a:link {
+    text-decoration: none;
+}
+button {
+  /* Add some padding to give the button some depth */
+  padding: 10px 20px;
+
+  /* Add a border to give the button a 3D appearance */
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 1000px rgba(27, 2, 53, 0.2);
+
+  /* Add a background color and text color */
+  background-color: #9d8cd4;
+  color: #ffffff;
+
+  /* Add some cursor styles to make it look clickable */
+  cursor: pointer;
+
+  /* Add some hover and active styles to make it more interactive */
+  transition: background-color 0.2s;
+  
+  
+    position:absolute;
+      bottom: 50px;;
+      left: 50%; /* optional, to center the button horizontally */
+      transform: translateX(-50%); /* optional, to center the button horizontally */
+    
+    
+}
+
+button:hover {
+  background-color: #9d8cd4;
+}
+
+button:active {
+  background-color: #9d8cd4;
+  box-shadow: 0 0 100px rgba(240, 239, 244, 0.4);
+}

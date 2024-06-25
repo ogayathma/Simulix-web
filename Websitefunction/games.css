@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+	font-family: "Open Sans";
+	font-size: 15px;
+	color: #526D82;
+	margin: 40px; /* Added margin around the webpage */
+}
+
+
+/* Style for background */
+.background {
+	background-image: url('background-image.jpg');
+	background-size: cover;
+	height: calc(100vh - 80px); /* Subtract margin from height */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Style for cards container */
+.cards-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+/* Style for card */
+.card {
+	background-color: #fff;
+	width: 400px;
+	height: 250px;
+	margin: 20px;
+	padding: 40px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	
+}
+
+.card h2 {
+	margin-top: 0;
+	font-size: 36px;
+}
+
+.card p {
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+.select-btn {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 20px 40px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 24px;
+}
+
+.select-btn:hover {
+	background-color: #3e8e41;
+}
+.sidenav {
+	height: 100%;
+	width: 170px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+}
+
+.sidenav a:hover {
+	background-color: #555;
+	color: #f1f1f1;
+}
+
+
+.dropdown-container {
+	display: none;
+	background-color: #f9f9f9;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.dropdown-container a {
+	color: #337ab7;
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-container a:hover {
+	background-color: #555;
+	color: #f1f1f1;
+}
+
+/* Style for page content */
+.main {
+	margin-left: 200px;
+	padding: 20px;
+}
+.sim{
+	color: rgb(157, 178, 191);
+	text-align: center;
+}
+button {
+    /* Add some padding to give the button some depth */
+    padding: 10px 20px;
+  
+    /* Add a border to give the button a 3D appearance */
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 1000px rgba(27, 2, 53, 0.2);
+  
+    /* Add a background color and text color */
+    background-color: #9d8cd4;
+    color: #ffffff;
+  
+    /* Add some cursor styles to make it look clickable */
+    cursor: pointer;
+  
+    /* Add some hover and active styles to make it more interactive */
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #9d8cd4;
+  }
+  
+  button:active {
+    background-color: #9d8cd4;
+    box-shadow: 0 0 100px rgba(240, 239, 244, 0.4);
+  }

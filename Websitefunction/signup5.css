@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Center the form container */
+.form-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Style the form */
+.form {
+    width: 50%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form fields */
+.form-field {
+    margin-bottom: 20px;
+   
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-field input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+.submit-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #3e8e41;
+}
+.form-container{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+
+
+button {
+    /* Add some padding to give the button some depth */
+    padding: 10px 20px;
+  
+    /* Add a border to give the button a 3D appearance */
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 1000px rgba(27, 2, 53, 0.2);
+  
+    /* Add a background color and text color */
+    background-color: #9d8cd4;
+    color: #ffffff;
+  
+    /* Add some cursor styles to make it look clickable */
+    cursor: pointer;
+  
+    /* Add some hover and active styles to make it more interactive */
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #9d8cd4;
+  }
+  
+  button:active {
+    background-color: #9d8cd4;
+    box-shadow: 0 0 100px rgba(240, 239, 244, 0.4);
+  }
+}
+body{
+    background-color: #27374D; 
+}
